@@ -2,7 +2,6 @@ resource "azurerm_resource_group" "group1"{
     name ="group01"
     location = "east-asia"
     tags = {
-        owner ="admin2"
+        onwer="admin1"
     }
-
 }
